@@ -1,9 +1,6 @@
 # react-windowed-select
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
-[![Storybook][storybook-badge]][storybook]
 
 An integration of `react-window` with `react-select` to efficiently render large lists.
 
@@ -35,7 +32,7 @@ function App () {
 }
 ```
 
-[![Edit react-windowed-select](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/n592j4l13m)
+[![Edit react-windowed-select](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/nvisreact-windowed-select-3j13n)
 
 For more examples, check out the [Storybook][storybook].
 
@@ -78,7 +75,7 @@ function App () {
    );
 }
 ```
-[![Edit react-windowed-select custom filter and component](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/sweet-snowflake-evjeo?fontsize=14)
+[![Edit react-windowed-select custom filter and component](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/nvisreact-windowed-select-custom-filter-and-component-oh2fu)
 
 ### WindowedMenuList
 By default, `react-windowed-select` wraps the standard Select component from `react-select`.
@@ -141,15 +138,5 @@ MenuList
 |
 └───Option 2
 ```
-
-[build-badge]: https://img.shields.io/travis/jacobworrel/react-windowed-select/master.png?style=flat-square
-[build]: https://travis-ci.org/jacobworrel/react-windowed-select
-
 [npm-badge]: https://img.shields.io/npm/v/react-windowed-select.png?style=flat-square
-[npm]: https://www.npmjs.com/package/react-windowed-select
-
-[coveralls-badge]: https://img.shields.io/coveralls/jacobworrel/react-windowed-select/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/jacobworrel/react-windowed-select
-
-[storybook-badge]: https://github.com/storybooks/brand/blob/master/badge/badge-storybook.svg
-[storybook]: https://peaceful-leavitt-38971b.netlify.com
+[npm]: https://www.npmjs.com/package/@nvis/react-windowed-select

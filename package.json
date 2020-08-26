@@ -1,5 +1,5 @@
 {
-  "name": "react-windowed-select",
+  "name": "@nvis/react-windowed-select",
   "version": "2.0.3",
   "description": "",
   "main": "dist/main.js",
@@ -27,6 +27,9 @@
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
+  },
+  "repository": {
+    "url": "git+https://github.com/vishnu-nt/react-windowed-select.git"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -72,5 +75,12 @@
     "setupFilesAfterEnv": [
       "<rootDir>/tests/setupTests.js"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/vishnu-nt/react-windowed-select/issues"
+  },
+  "homepage": "https://github.com/vishnu-nt/react-windowed-select#readme",
+  "directories": {
+    "test": "tests"
   }
 }
