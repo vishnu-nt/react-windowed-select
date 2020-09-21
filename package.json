@@ -40,6 +40,10 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "@testing-library/react": "^10.2.1",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.1",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "concurrently": "^5.2.0",
@@ -51,6 +55,7 @@
     "ramda": "0.27.0",
     "react-test-renderer": "^16.8.0",
     "start-server-and-test": "^1.11.0",
+    "typescript": "^4.0.3",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
@@ -82,5 +87,10 @@
   "homepage": "https://github.com/vishnu-nt/react-windowed-select#readme",
   "directories": {
     "test": "tests"
-  }
+  },
+  "keywords": [
+    "react-select",
+    "react-virtualized-select",
+    "react-windowed-select"
+  ]
 }
