@@ -1,5 +1,5 @@
-import MenuList from './MenuList';
 import React, { useMemo } from 'react';
+import MenuList from './MenuList';
 import Select from 'react-select';
 import { calcOptionsLength } from './util';
 

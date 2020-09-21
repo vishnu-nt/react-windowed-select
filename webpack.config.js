@@ -1,17 +1,20 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.ts',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'WindowedSelect',
     libraryTarget: 'commonjs2',
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],    
+  },
   module: {
     rules: [
       {
-        test: /\.(js|ts|tsx)$/,
+        test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "ts-loader"
